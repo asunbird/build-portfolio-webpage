@@ -6,12 +6,13 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: rgb(220, 220, 220);
 }
 
 
 /* Header styles and navigation */
 header {
-  background-color: rgb(250, 203, 101);
+  background-color: rgb(179, 179, 179);
   border-radius: 6px;
   border-style: dashed;
   border-width: 3px;
@@ -49,7 +50,7 @@ a:visited {}
 
 /* Main section styles */
 main {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(145, 151, 162);
   width: 100%;
   height: 800px;
 }
@@ -63,7 +64,7 @@ main {
 }
  
 .projects-section {
-  background-color: rgb(190, 146, 240);
+  background-color: rgb(72, 70, 75);
   border-style: dashed;
   border-width: 3px;
   border-color: rgb(98, 104, 116);
@@ -89,11 +90,15 @@ main {
 }
 
 h1 {
-
+  display: block;
 }
 
 p {
 
+}
+
+li {
+  display: list-item;
 }
  
 /* Footer styles */
