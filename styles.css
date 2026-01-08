@@ -12,7 +12,7 @@ body {
 
 /* Header styles and navigation */
 header {
-  background-color: rgb(179, 179, 179);
+  background-color: rgba(44, 44, 53, 0.9);
   border-radius: 6px;
   border-style: dashed;
   border-width: 3px;
@@ -56,6 +56,11 @@ main {
 }
  
 .welcome-section {
+  background-image: url('21405.jpg');
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+
   display: flex;
   justify-content: center;
   align-items: center;
