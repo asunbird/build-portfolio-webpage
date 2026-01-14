@@ -12,11 +12,7 @@ body {
 
 /* Header styles and navigation */
 header {
-  background-color: rgba(44, 44, 53, 0.9);
-  border-radius: 6px;
-  border-style: dashed;
-  border-width: 3px;
-  border-color: rgb(98, 104, 116);
+  background-color: rgba(201, 201, 201, 0.9);
   margin: 0;
   width: 100%;
   height: 80px;
