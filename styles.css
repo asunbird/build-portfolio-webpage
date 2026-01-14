@@ -20,15 +20,21 @@ header {
 
 nav {
   display: flex;
-  justify-content: start;
+  justify-content: end;
+  
+ }
+
+ a:active {
+   color: rgb(9, 35, 89);
  }
 
 ul {
     list-style-type: none;
+    
 }
 
 li {
-
+    display: inline-block;
 } 
 
 /* Link styles */
