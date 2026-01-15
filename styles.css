@@ -160,6 +160,16 @@ h3 {
   align-items: center;
 }
 
+h1.cotact-heading {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+h3.cotact-heading {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
 /* Footer styles */
 footer {
   width: 100%;
