@@ -18,28 +18,24 @@ header {
   height: 80px;
  }
 
-nav {
+ul.nav-list {
   display: flex;
-  justify-content: end;
-  
- }
-
-
-
- a:active {
-   color: rgb(9, 35, 89);
- }
-
-ul {
-    list-style-type: none;
-    
+  justify-content: flex-end;
+  list-style-type: none;
+  margin-right: 20px;
+  padding: 0;
 }
 
 li {
-    display: inline-block;
-} 
+  display: inline-block;
+}
+
 
 /* Link styles */
+a:active {
+   color: rgb(9, 35, 89);
+ }
+
 a {
 
 }
@@ -102,9 +98,6 @@ p {
 
 }
 
-li {
-  display: list-item;
-}
  
 /* Footer styles */
 footer {
