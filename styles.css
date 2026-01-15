@@ -83,6 +83,7 @@ p {
 input {
   width: 100%;
   border: 1px solid #ffffff;
+  color: #1C346A;
 }
 
 #color-button {
