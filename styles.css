@@ -93,6 +93,19 @@ input {
 
 
 /* Projects section styles */
+
+#project-1 {
+    background-image: linear-gradient(
+      115deg,
+      rgba(247, 126, 110, 0.8),
+      rgba(28, 52, 106, 0.7)
+    ),
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .projects-section {
   background-color: #1C346A;
   display: grid;
@@ -123,6 +136,7 @@ h3 {
   height: 26vw;
   margin: 20px;
   background-color: #FFB85F;
+  cursor: pointer;
 }
 
 .all-button {
