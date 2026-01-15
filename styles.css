@@ -80,6 +80,15 @@ p {
   font-size: 0.8rem;
 }
 
+input {
+  width: 100%;
+}
+
+#color-button {
+
+}
+
+
 /* Projects section styles */
 
 .projects-section {
