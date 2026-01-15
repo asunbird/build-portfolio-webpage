@@ -97,15 +97,13 @@ input {
 /* Projects section styles */
 
 .projects-section {
-  background-color: rgb(72, 70, 75);
-  border-style: dashed;
-  border-width: 3px;
-  border-color: rgb(98, 104, 116);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: #1C346A;
+  display: grid;
+  grid-template: 100px 1fr 1fr / 1fr;
+  text-align: center;
+  color: #ffffff;
   width: 100%;
-  height: 200px;
+  height: auto;
 }
   
 .flex-container {
