@@ -12,7 +12,7 @@ body {
 
 /* Header styles and navigation */
 header {
-  background-color: rgba(201, 201, 201, 0.9);
+  background-color: #F77E6E;
   margin: 0;
   width: 100%;
   height: 60px;
@@ -32,12 +32,10 @@ li {
 
 
 /* Link styles */
-a:active {
-   color: rgb(9, 35, 89);
- }
 
 a {
-  color: #F9F871;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 a:active {}
