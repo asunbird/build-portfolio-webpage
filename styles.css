@@ -30,6 +30,10 @@ li {
   margin-left: 20px;
 }
 
+#navbar {
+  text-decoration: none;
+}
+
 
 /* Link styles */
 a {
