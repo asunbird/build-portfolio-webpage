@@ -15,7 +15,6 @@ header {
   margin: 0;
   width: 100%;
   height: 80px;
-  position: fixed;
  }
 
 .nav-list {
@@ -32,6 +31,7 @@ li {
 
 #navbar {
   text-decoration: none;
+  position: fixed;
 }
 
 
