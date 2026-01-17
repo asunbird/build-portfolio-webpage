@@ -123,7 +123,7 @@ h3 {
   flex-wrap: wrap;
 }
 
-.project-item {
+.project-tile {
   display: inline-block;
   width: 20vw;
   height: 26vw;
