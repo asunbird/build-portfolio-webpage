@@ -9,31 +9,25 @@ body {
   font-size: 16px;
 }
 
-/* Header styles and navigation */
-header {
+/* Navigation styles */
+#navbar {
+  text-decoration: none;
+  position: fixed;
   background-color: #F77E6E;
   margin: 0;
   width: 100%;
   height: 80px;
- }
-
+}
 .nav-list {
   display: flex;
   justify-content: flex-end;
   list-style-type: none;
   padding: 30px;
 }
-
 li {
   display: inline-block;
   margin-left: 20px;
 }
-
-#navbar {
-  text-decoration: none;
-  position: fixed;
-}
-
 
 /* Link styles */
 a {
