@@ -27,7 +27,7 @@ body {
 }
 li {
   display: inline-block;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 /* Initial state */
 .nav-list a {
