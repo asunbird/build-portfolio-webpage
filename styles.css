@@ -161,7 +161,7 @@ h3 {
   font-size: 1.2rem;
 }
  
-.contacts {
+.contacts-container {
   margin-top: 30px;
   display: flex;
   justify-content: center;
