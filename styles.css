@@ -196,3 +196,18 @@ footer {
   height: 100%;
   padding: 0 20px;
 }
+
+/* Media Queries for responsiveness */
+
+@media (max-width: 600px) {
+  .project-tile {
+    display: block;
+    width: 40vw;
+    height: auto;
+  }
+
+  .flex-container {
+  flex-flow: column;
+}
+
+}
