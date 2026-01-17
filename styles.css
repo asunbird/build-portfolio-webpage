@@ -163,7 +163,18 @@ h3 {
   padding-top: 50px;
   font-size: 1.2rem;
 }
- 
+/* Contacts section styles */
+#contact {
+  display: flex;
+  background-color: #794381;
+  justify-content: center;
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+  height: 500px;
+  padding-top: 50px;
+  font-size: 1.2rem;
+}
 .contacts-container {
   margin-top: 30px;
   display: flex;
