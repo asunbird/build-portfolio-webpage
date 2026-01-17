@@ -46,7 +46,7 @@ a:visited {}
 
 
 /* Welcome section styles */ 
-.welcome-section {
+#welcome-section {
   background-color: #C4567F;
   display: flex;
   justify-content: center;
