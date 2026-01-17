@@ -29,14 +29,14 @@ li {
   display: inline-block;
   margin-left: 30px;
 }
-/* Initial state */
+/* link Initial state */
 .nav-list a {
   color: #ffffff;
   text-decoration: none;
   display: inline-block;
   transition: transform 0.3s ease-in-out;
 }
-/* Hover state */
+/* link Hover state */
 .nav-list a:hover {
   transform: scale(1.16);
   cursor: pointer;
