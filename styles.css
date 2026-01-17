@@ -133,19 +133,21 @@ h3 {
 }
 
 .all-button {
-  display: flex;
+  display: block;
   margin-top: 20px;
-  justify-content: center;
-  width: 100%;
-  height: 40px;
-}
-#all-projects {
+  width: fit-content;
+  height: fit-content;
   background-color: #F77E6E;
-  color: #ffffff;
-  border: 1px solid #ffffff;
-  padding: 10px 20px;
-  cursor: pointer;
   border-radius: 2px;
+  cursor: pointer;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  padding: 0.8rem;
+}
+#profile-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.8rem;
 }
 
 /* About Me section styles */
