@@ -30,11 +30,13 @@ li {
   margin-left: 20px;
 }
 .nav-list a {
+  /* Initial state */
   color: #ffffff;
   text-decoration: none;
 }
 .nav-list a:hover {
-  animation-name: scale-on-hover;
+  /* Hover state */
+  animation: scale-on-hover 3s ease-in-out initial;
   cursor: pointer;
 }
 
@@ -204,11 +206,11 @@ footer {
 
 /* Animation for hover effect */
 @keyframes scale-on-hover {
-  from {
+  0% {
     transform: scale(1);
-    
+
   }
-  to {
+  100% {
     transform: scale(1.1);
   }
 }
