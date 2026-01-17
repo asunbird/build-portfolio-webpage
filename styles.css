@@ -93,16 +93,13 @@ input {
 
 
 /* Projects section styles */
-
-
 .project-image {
   width: auto;
   height: 26vw;
   object-fit: cover;
-
 }
 
-.projects-section {
+#projects {
   background-color: #1C346A;
   display: grid;
   grid-template: 100px 1fr 1fr / 1fr;
