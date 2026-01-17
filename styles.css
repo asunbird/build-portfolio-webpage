@@ -12,6 +12,7 @@ body {
 /* Navigation styles */
 #navbar {
   font-size: 1.2rem;
+  font-weight: bold;
   text-decoration: none;
   position: fixed;
   background-color: #F77E6E;
