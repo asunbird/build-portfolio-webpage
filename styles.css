@@ -134,7 +134,7 @@ h3 {
 
 .all-button {
   display: block;
-  margin-top: 20px;
+  margin: 20px auto;
   width: fit-content;
   height: fit-content;
   background-color: #F77E6E;
