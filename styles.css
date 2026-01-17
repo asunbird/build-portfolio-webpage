@@ -29,10 +29,13 @@ li {
   display: inline-block;
   margin-left: 20px;
 }
-
 .nav-list a {
   color: #ffffff;
   text-decoration: none;
+}
+.nav-list a:hover {
+  animation-name: scale-on-hover;
+  cursor: pointer;
 }
 
 
@@ -197,4 +200,15 @@ footer {
   .flex-container {
   flex-flow: column;
 }
+}
+
+/* Animation for hover effect */
+@keyframes scale-on-hover {
+  from {
+    transform: scale(1);
+    
+  }
+  to {
+    transform: scale(1.1);
+  }
 }
