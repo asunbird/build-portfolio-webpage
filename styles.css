@@ -192,6 +192,11 @@ input::placeholder {
 
 
 /* About & Contact Sections */
+#about-and-contact {
+  width: 100%;
+  height: fit-content;
+  display: block;
+}
 .about-section {
   display: flex;
   justify-content: center;
