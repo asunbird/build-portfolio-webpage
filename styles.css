@@ -117,7 +117,8 @@ input::placeholder {
   flex-flow: column;
   background-color: var(--projects-dark);
   width: 100%;
-  height: 80vh;
+  height: fit-content;
+  padding: 6vh 0;
 }
 #projects h3 {
   margin: 30px auto;
@@ -133,12 +134,13 @@ input::placeholder {
   text-decoration: none;
   display: block;
 }
-
-
 .project-tile {
   display: inline-block;
   background-color: var(--alt-contrast);
   cursor: pointer;
+  width: 26vw;
+  height: 22vh;
+  margin: 8vh 0;
 }
 
 
