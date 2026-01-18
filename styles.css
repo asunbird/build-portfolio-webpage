@@ -117,13 +117,17 @@ input::placeholder {
 
 #projects {
   background-color: var(--projects-dark);
-  display: grid;
-  grid-template: 100px 1fr 1fr / 1fr;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
   text-align: center;
   color: var(--text-color);
   width: 100%;
   height: fit-content;
-  padding: 30px;
+}
+.title-container .button-container {
+  display: flex;
+  justify-content: center;
 }
   
 h3 {
@@ -137,6 +141,7 @@ h3 {
   grid-template-columns: 20vw 20vw 20vw;
   grid-template-rows: 26vw 26vw;
   gap: 40px 20px;
+  margin: 30px auto;
 }
 
 .project-tile {
