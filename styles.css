@@ -164,7 +164,7 @@ input::placeholder {
   border-radius: 3px;
   cursor: pointer;
   line-height: 1.5rem;
-  margin: 4vh auto;
+  margin: 6vw auto;
   width: 80vw;
   height: 22vh;
   
@@ -172,7 +172,7 @@ input::placeholder {
 .project-image {
   background-color: var(--main-color);
   width: 20vw;
-  height: 22vh;
+  height: 20vw;
   display: inline-block;
   object-fit: cover;
   overflow: hidden;
@@ -302,6 +302,10 @@ footer {
     margin: 20px;
     line-height: 1.5rem;
     padding: 0;
+  }
+  .project-image {
+    width: 20vw;
+    height: 20vw;
   }
   .flex-container {
   flex-flow: column;
