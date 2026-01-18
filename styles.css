@@ -116,7 +116,7 @@ input::placeholder {
 }
 
 #projects {
-  background-color: #1C346A;
+  background-color: var(--projects-dark);
   display: grid;
   grid-template: 100px 1fr 1fr / 1fr;
   text-align: center;
@@ -144,7 +144,7 @@ h3 {
   width: 20vw;
   height: 26vw;
   margin: 20px;
-  background-color: #FFB85F;
+  background-color: var(--alt-contrast);
   cursor: pointer;
 }
 
@@ -157,8 +157,11 @@ h3 {
   border-radius: 2px;
   cursor: pointer;
   border: 0;
-  color: var(--text-color);
   padding: 0.8rem;
+}
+.all-button a {
+  color: var(--text-color);
+  text-decoration: none;
 }
 
 
