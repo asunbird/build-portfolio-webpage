@@ -33,12 +33,19 @@ input::placeholder {
 
 /* Define color variables */
 :root {
-  --text-color: #ffffff;
-  /* color variables for changes */
+  /* background colors for changes */
   --main-color: #F77E6E;
   --welcome-color: #C4567F;
   --projects-dark: #1C346A;
   --about-contact: #794381;
+
+  /* Text colors for changes */
+  --text-color: #ffffff;
+  --text-welcome: #ffffff;
+  --text-projects: #ffffff;
+  --text-about: #ffffff;
+  --text-main-contrast: #000000; /* For buttons on main color */
+  
 }
 
 
@@ -80,13 +87,14 @@ input::placeholder {
 /* Welcome section styles */ 
 #welcome-section {
   background-color: var(--welcome-color);
+  color: var(--text-welcome); 
+  /* Uses specific variable */
   display: flex;
   justify-content: center;
   flex-flow: column;
   align-items: center;
   width: 100%;
   height: 700px;
-  color: var(--text-color);
 }
 .input-container {
   display: block;
@@ -104,21 +112,25 @@ input::placeholder {
   margin: 10px;
 }
 .btn-submit {
-  background-color: var(--main-color);
-  color: white;
   border: none;
   cursor: pointer;
+}
+/* Buttons (using main color) */
+.btn-submit {
+  background-color: var(--main-color);
+  color: var(--text-main-contrast); 
 }
 
 /* Projects section styles */
 #projects {
+  background-color: var(--projects-dark);
+  color: var(--text-projects); 
+  /* Uses specific variable */
   display: flex;
   text-align: center;
   justify-content: center;
   align-items: center;
   flex-flow: column;
-  background-color: var(--projects-dark);
-  color: var(--text-color);
   width: 100%;
   height: fit-content;
   padding: 8vh 0;
@@ -175,13 +187,11 @@ input::placeholder {
 }
 
 
-/* About Me section styles */
+/* About & Contact Sections */
 .about-section {
   display: flex;
   justify-content: center;
   flex-flow: column;
-  background-color: #794381;
-  color: var(--text-color);
   text-align: center;
   width: 100%;
   height: 500px;
@@ -189,16 +199,15 @@ input::placeholder {
   font-size: 1.2rem;
 }
 #about, #contact {
-  background-color: var(--about-contact);
-  color: var(--text-color);
+background-color: var(--about-contact);
+  color: var(--text-about); 
+  /* Uses specific variable */
 }
-/* Contacts section styles */
+
 #contact {
   display: flex;
-  background-color: #794381;
   justify-content: center;
   flex-flow: column;
-  color: var(--text-color);
   text-align: center;
   width: 100%;
   height: 500px;
