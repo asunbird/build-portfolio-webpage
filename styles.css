@@ -118,10 +118,9 @@ input::placeholder {
   background-color: var(--projects-dark);
   width: 100%;
   height: fit-content;
-  padding: 6vh 0;
+  padding: 8vh 0;
 }
 #projects h3 {
-  margin: 30px auto;
   color: var(--text-color);
 }
 .flex-container {
@@ -139,11 +138,12 @@ input::placeholder {
 }
 .project-tile {
   display: inline-block;
-  background-color: var(--alt-contrast);
+  background-color: var(--main-color);
+  border-radius: 6px;
   cursor: pointer;
   width: 26vw;
   height: 22vh;
-  margin: 8vh 0;
+  margin: 3vh 0;
 }
 
 
