@@ -179,6 +179,8 @@ input::placeholder {
   border-radius: 3px;
   min-width: 100px;
   min-height: 100px;
+  /* this line to prevent shrinking */
+  flex-shrink: 0;
 }
 .project-link {
   display: inline-block;
