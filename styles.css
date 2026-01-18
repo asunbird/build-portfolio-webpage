@@ -112,16 +112,16 @@ input::placeholder {
 #projects {
   display: block;
   text-align: center;
-}
-.grid-container {
   background-color: var(--projects-dark);
-  display: grid;
   width: 100%;
   height: fit-content;
+}
+.grid-container {
+  display: grid;
   grid-template-columns: 20vw 20vw 20vw;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   gap: 40px 20px;
-  padding: 40px;
+
 }
 .grid-container a, p {
   color: var(--text-color);
