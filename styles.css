@@ -182,6 +182,11 @@ input::placeholder {
   /* this line to prevent shrinking */
   flex-shrink: 0;
 }
+.project-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .project-link {
   display: inline-block;
   color: var(--text-projects);
