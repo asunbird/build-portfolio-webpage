@@ -161,6 +161,7 @@ input::placeholder {
   cursor: pointer;
   border: 0;
   padding: 0.8rem;
+  margin-top: 3vh;
 }
 .button-container a {
   color: var(--text-color);
