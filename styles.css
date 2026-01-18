@@ -109,22 +109,37 @@ input::placeholder {
 
 
 /* Projects section styles */
+#projects {
+  background-color: var(--projects-dark);
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  color: var(--text-color);
+}
+.grid-container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 20vw 20vw 20vw;
+  grid-template-rows: 26vw 26vw;
+  gap: 40px 20px;
+  padding: 40px;
+}
+.project-tile {
+  display: inline-block;
+  background-color: var(--alt-contrast);
+  cursor: pointer;
+}
+
+
 .project-image {
   width: auto;
   height: 26vw;
   object-fit: cover;
 }
 
-#projects {
-  background-color: var(--projects-dark);
-  display: flex;
-  justify-content: center;
-  flex-flow: column;
-  text-align: center;
-  color: var(--text-color);
-  width: 100%;
-  height: fit-content;
-}
+
 .title-container .button-container {
   display: flex;
   justify-content: center;
@@ -135,20 +150,7 @@ h3 {
   margin: 30px 20px;
 }
 
-.grid-container {
-  display: grid;
-  width: 100%;
-  grid-template-columns: 20vw 20vw 20vw;
-  grid-template-rows: 26vw 26vw;
-  gap: 40px 20px;
-  margin: 30px auto;
-}
 
-.project-tile {
-  display: inline-block;
-  background-color: var(--alt-contrast);
-  cursor: pointer;
-}
 
 .all-button {
   display: block;
