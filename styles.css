@@ -160,8 +160,8 @@ input::placeholder {
   margin: 10px 0;
 }
 .project-tile {
-  display: inline-block;
   background-color: var(--main-color);
+  display: flex;
   border-radius: 6px;
   cursor: pointer;
   width: 26vw;
