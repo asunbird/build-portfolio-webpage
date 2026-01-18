@@ -125,6 +125,7 @@ input::placeholder {
   color: var(--text-main-contrast); 
 }
 
+
 /* Projects section styles */
 #projects {
   background-color: var(--projects-dark);
@@ -144,10 +145,13 @@ input::placeholder {
 }
 .flex-container {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap-reverse;
-  flex-direction: row-reverse;
+  justify-content: center;
+  flex-flow: column;
+  flex-direction: column-reverse;
   height: 80vh;
+  min-height: fit-content;
+  width: 100%;
+  margin: 6vh auto;
 }
 .flex-container a, p {
   color: var(--text-color);
