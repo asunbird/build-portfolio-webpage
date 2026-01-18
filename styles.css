@@ -109,6 +109,10 @@ input::placeholder {
 
 
 /* Projects section styles */
+#projects {
+  display: block;
+  text-align: center;
+}
 .grid-container {
   background-color: var(--projects-dark);
   display: grid;
@@ -116,7 +120,6 @@ input::placeholder {
   height: fit-content;
   grid-template-columns: 20vw 20vw 20vw;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  text-align: center;
   gap: 40px 20px;
   padding: 40px;
 }
