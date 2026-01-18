@@ -210,7 +210,7 @@ background-color: var(--about-contact);
   display: block;
   width: 56vw;
   height: fit-content;
-  text-align: left;
+  text-align: center;
   margin: 1vh auto;
 }
 
