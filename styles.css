@@ -160,16 +160,19 @@ input::placeholder {
   margin: 10px 0;
 }
 .project-tile {
-  background-color: var(--main-color);
   display: flex;
   border-radius: 6px;
   cursor: pointer;
-  width: 26vw;
+  margin: 4vh auto;
+  width: 80vw;
   height: 22vh;
+  border: 1px solid;
+  border-color: var(--text-color);
 }
 
 
 .project-image {
+  background-color: var(--main-color);
   width: auto;
   height: 26vw;
   object-fit: cover;
