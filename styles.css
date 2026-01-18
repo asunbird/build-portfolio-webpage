@@ -110,11 +110,14 @@ input::placeholder {
 
 /* Projects section styles */
 #projects {
-  display: block;
+  display: flex;
   text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
   background-color: var(--projects-dark);
   width: 100%;
-  height: fit-content;
+  height: 80vh;
 }
 .grid-container {
   display: grid;
@@ -147,14 +150,12 @@ input::placeholder {
   
 h3 {
   font-size: 1.5rem;
-  margin: 30px 20px;
 }
 
 
 
 .all-button {
   display: block;
-  margin: 20px auto;
   width: fit-content;
   height: fit-content;
   background-color: var(--main-color);
