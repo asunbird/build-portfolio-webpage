@@ -103,7 +103,12 @@ input::placeholder {
   border-radius: 2px;
   margin: 10px;
 }
-
+.btn-submit {
+  background-color: var(--main-color);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
 
 /* Projects section styles */
 #projects {
@@ -113,6 +118,7 @@ input::placeholder {
   align-items: center;
   flex-flow: column;
   background-color: var(--projects-dark);
+  color: var(--text-color);
   width: 100%;
   height: fit-content;
   padding: 8vh 0;
@@ -181,6 +187,10 @@ input::placeholder {
   height: 500px;
   padding-top: 30px;
   font-size: 1.2rem;
+}
+#about, #contact {
+  background-color: var(--about-contact);
+  color: var(--text-color);
 }
 /* Contacts section styles */
 #contact {
