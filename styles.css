@@ -196,6 +196,10 @@ h3 {
   gap: 20px;
   align-items: center;
 }
+.contacts-container a {
+  color: var(--text-color);
+  text-decoration: dashed;
+}
 
 h1.cotact-heading {
   font-size: 2rem;
