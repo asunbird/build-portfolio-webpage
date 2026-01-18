@@ -127,8 +127,9 @@ input::placeholder {
 .flex-container {
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
-  flex-direction:row-reverse;
+  flex-wrap: wrap-reverse;
+  flex-direction: row-reverse;
+  height: 80vh;
 }
 .flex-container a, p {
   color: var(--text-color);
