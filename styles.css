@@ -93,7 +93,7 @@ input {
   text-align: center;
 }
 input::placeholder {
-  color: var(--welcome-color);
+  color: var(--about-contact);
   opacity: 1; 
 }
 
