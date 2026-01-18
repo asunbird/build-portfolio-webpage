@@ -157,11 +157,7 @@ h3 {
   color: var(--text-color);
   padding: 0.8rem;
 }
-#profile-link {
-  color: var(--text-color);
-  text-decoration: none;
-  font-size: 0.8rem;
-}
+
 
 /* About Me section styles */
 .about-section {
@@ -189,6 +185,7 @@ h3 {
   padding-top: 30px;
   font-size: 1.2rem;
 }
+
 .contacts-container {
   margin-top: 30px;
   display: flex;
@@ -198,7 +195,8 @@ h3 {
 }
 .contacts-container a {
   color: var(--text-color);
-  text-decoration: dashed;
+  text-decoration: none;
+  font-size: 1rem;
 }
 
 h1.cotact-heading {
