@@ -167,8 +167,7 @@ input::placeholder {
   margin: 4vh auto;
   width: 80vw;
   height: 22vh;
-  border: 1px solid;
-  border-color: var(--text-color);
+  
 }
 .project-image {
   background-color: var(--main-color);
