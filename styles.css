@@ -33,11 +33,12 @@ input::placeholder {
 
 /* Define color variables */
 :root {
+  --text-color: #ffffff;
+  /* color variables for changes */
   --main-color: #F77E6E;
   --welcome-color: #C4567F;
   --projects-dark: #1C346A;
   --about-contact: #794381;
-  --text-color: #ffffff;
 }
 
 
