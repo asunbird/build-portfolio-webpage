@@ -27,7 +27,7 @@ input {
   text-align: center;
 }
 input::placeholder {
-  color: var(--about-contact);
+  color: rgb(60, 60, 60);
   opacity: 1; 
 }
 
@@ -101,6 +101,7 @@ input::placeholder {
   margin: 20px;
   text-align: center;
 }
+
 
 #color-button {
   background-color: var(--main-color);
