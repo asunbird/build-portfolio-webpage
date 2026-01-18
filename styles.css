@@ -110,23 +110,22 @@ input::placeholder {
 
 /* Projects section styles */
 .grid-container {
+  background-color: var(--projects-dark);
   display: grid;
   width: 100%;
+  height: fit-content;
   grid-template-columns: 20vw 20vw 20vw;
-  grid-template-rows: 1fr 26vw 26vw;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   text-align: center;
   gap: 40px 20px;
   padding: 40px;
 }
-#projects {
-  background-color: var(--projects-dark);
-  width: 100%;
-  height: fit-content;
-  display: flex;
-  justify-content: center;
-  flex-flow: column;
+.grid-container a, p {
   color: var(--text-color);
+  text-decoration: none;
+  display: block;
 }
+
 
 .project-tile {
   display: inline-block;
