@@ -58,7 +58,7 @@ li {
 
 /* Welcome section styles */ 
 #welcome-section {
-  background-color: #C4567F;
+  background-color: var(--welcome-color);
   display: flex;
   justify-content: center;
   flex-flow: column;
@@ -90,7 +90,7 @@ input {
   height: 1.6em;
   border: 0;
   border-radius: 3px;
-  color: #1C346A;
+  color: var(--welcome-color);
   text-align: center;
 }
 
