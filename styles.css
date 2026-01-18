@@ -208,12 +208,12 @@ background-color: var(--about-contact);
   /* Uses specific variable */
 }
 #about p {
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 1.5rem;
   display: block;
   width: 56vw;
   height: fit-content;
-  text-align: center;
+  text-align:center;
   margin: 1vh auto;
 }
 
