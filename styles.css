@@ -25,7 +25,7 @@ body {
   font-weight: bold;
   text-decoration: none;
   position: fixed;
-  background-color: #F77E6E;
+  background-color: var(--main-color);
   margin: 0;
   width: 100%;
   height: 80px;
@@ -212,7 +212,7 @@ h3.cotact-heading {
 footer {
   width: 100%;
   height: 100px;
-  background-color: #F77E6E;
+  background-color: var(--main-color);
   color: #ffffff;
 }
 .footer-content {
