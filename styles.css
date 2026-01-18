@@ -299,6 +299,7 @@ footer {
   .project-image {
     width: 20vw;
     height: 20vw;
+    display: inline-block;
   }
   .flex-container {
   flex-flow: column;
@@ -307,6 +308,13 @@ footer {
   #projects {
     padding: 30px 0;
   }
+  .project-link {
+    display: inline-block;
+    margin: 0 20px 10px 20px;
+    font-size: 1.2rem;
+    text-align: left;
+  }
+
   #about, #contact {
     width: 100%;
     height: fit-content;
