@@ -241,17 +241,18 @@ background-color: var(--about-contact);
   gap: 20px;
   align-items: center;
 }
+/* Contacts link Initial state */
 .contacts-container a {
   color: var(--text-color);
   text-decoration: none;
   font-size: 1rem;
+  transition: transform 0.3s ease-in-out;
 }
-
-/* h3.cotact-heading {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
+/* Contacts link Hover state */
+.contacts-container a:hover {
+  transform: scale(1.16);
+  cursor: pointer;
 }
-*/
 
 /* Footer styles */
 footer {
