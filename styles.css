@@ -161,7 +161,7 @@ input::placeholder {
 }
 .project-tile {
   display: flex;
-  border-radius: 6px;
+  border-radius: 3px;
   cursor: pointer;
   margin: 4vh auto;
   width: 80vw;
@@ -169,13 +169,14 @@ input::placeholder {
   border: 1px solid;
   border-color: var(--text-color);
 }
-
-
 .project-image {
   background-color: var(--main-color);
-  width: auto;
-  height: 26vw;
+  width: 20vw;
+  height: 22vh;
+  display: inline-block;
   object-fit: cover;
+  overflow: hidden;
+  border-radius: 3px;
 }
 
 
