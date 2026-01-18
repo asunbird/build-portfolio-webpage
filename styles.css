@@ -131,19 +131,16 @@ h3 {
   margin: 30px 20px;
 }
 
-.flex-container {
-  display: flex;
+.grid-container {
+  display: grid;
   width: 100%;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  grid-template-columns: 20vw 20vw 20vw;
+  grid-template-rows: 26vw 26vw;
+  gap: 40px 20px;
 }
 
 .project-tile {
   display: inline-block;
-  width: 20vw;
-  height: 26vw;
-  margin: 20px;
   background-color: var(--alt-contrast);
   cursor: pointer;
 }
