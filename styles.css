@@ -109,6 +109,15 @@ input::placeholder {
 
 
 /* Projects section styles */
+.grid-container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 20vw 20vw 20vw;
+  grid-template-rows: 1fr 26vw 26vw;
+  text-align: center;
+  gap: 40px 20px;
+  padding: 40px;
+}
 #projects {
   background-color: var(--projects-dark);
   width: 100%;
@@ -118,14 +127,7 @@ input::placeholder {
   flex-flow: column;
   color: var(--text-color);
 }
-.grid-container {
-  display: grid;
-  width: 100%;
-  grid-template-columns: 20vw 20vw 20vw;
-  grid-template-rows: 26vw 26vw;
-  gap: 40px 20px;
-  padding: 40px;
-}
+
 .project-tile {
   display: inline-block;
   background-color: var(--alt-contrast);
@@ -140,10 +142,6 @@ input::placeholder {
 }
 
 
-.title-container .button-container {
-  display: flex;
-  justify-content: center;
-}
   
 h3 {
   font-size: 1.5rem;
