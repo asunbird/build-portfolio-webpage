@@ -128,11 +128,13 @@ input::placeholder {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  flex-direction:row-reverse;
 }
 .flex-container a, p {
   color: var(--text-color);
   text-decoration: none;
   display: block;
+  margin: 10px 0;
 }
 .project-tile {
   display: inline-block;
@@ -250,6 +252,7 @@ footer {
   }
   .flex-container {
   flex-flow: column;
+  flex-direction: column-reverse;
   }
   #projects {
     padding: 30px 0;
