@@ -166,7 +166,7 @@ input::placeholder {
   line-height: 1.5rem;
   margin: 6vw auto;
   width: 80vw;
-  height: 22vh;
+  height: fit-content;
   
 }
 .project-image {
@@ -299,8 +299,8 @@ footer {
     justify-content: flex-start;
     width: 90%;
     height: fit-content;
-    margin: 20px;
-    line-height: 1.5rem;
+    margin: 20px auto;
+    line-height: 1.3rem;
     padding: 0;
   }
   .project-image {
