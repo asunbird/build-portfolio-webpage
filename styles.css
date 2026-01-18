@@ -8,6 +8,17 @@ body {
   font-size: 16px;
 }
 
+/* Define color variables */
+:root {
+  --main-color: #F77E6E;
+  --welcome-color: #C4567F;
+  --projects-dark: #1C346A;
+  --about-contact: #794381;
+  --text-color: #ffffff;
+  --alt-contrast: #FFB85F;
+
+}
+
 /* Navigation styles */
 #navbar {
   font-size: 1.2rem;
