@@ -90,8 +90,11 @@ input {
   height: 1.6em;
   border: 0;
   border-radius: 3px;
-  color: var(--welcome-color);
   text-align: center;
+}
+input::placeholder {
+  color: var(--welcome-color);
+  opacity: 1; 
 }
 
 #color-button {
