@@ -274,7 +274,7 @@ background-color: var(--about-contact);
 /* Footer styles */
 footer {
   width: 100%;
-  height: 100px;
+  height: 60px;
   background-color: var(--main-color);
   color: var(--text-color);
 }
@@ -285,7 +285,9 @@ footer {
   height: 100%;
   padding: 0 20px;
 }
-
+.footer-content p {
+  font-size: 0.8rem;
+}
 
 /* Media Queries for responsiveness */
 @media (max-width: 600px) {
