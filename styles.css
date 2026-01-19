@@ -52,7 +52,7 @@ input::placeholder {
   --about-contact: #794381; /* About me, Contacts */
 
   /* Text colors for changes */
-  --text-color: #ffffff;
+  --text-color: #ffffff; /* Main text color */
   --text-welcome: #ffffff;
   --text-projects: #ffffff;
   --text-about: #ffffff;
