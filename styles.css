@@ -168,8 +168,7 @@ input::placeholder {
   line-height: 1.5rem;
   margin: 1.6vh 1.6vw;
   width: 46%;
-  max-height: 300px;
-  min-height: 120px;
+ height: fit-content;
 }
 .project-image {
   background-color: var(--main-color);
