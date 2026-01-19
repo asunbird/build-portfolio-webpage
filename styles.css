@@ -166,9 +166,9 @@ input::placeholder {
   border-radius: 3px;
   cursor: pointer;
   line-height: 1.5rem;
-  margin: 1.3vh 1.3vw;
+  margin: 1vh 1.3vw;
   width: 46%;
-  height: 30vw;
+  height: 22vw;
   min-height: 280px;
 }
 .project-image {
@@ -293,7 +293,7 @@ footer {
     display: flex;
     justify-content: flex-start;
     width: 90%;
-    height: fit-content;
+    min-height: 140px;
     margin: 20px auto;
     line-height: 1.3rem;
     padding: 0;
