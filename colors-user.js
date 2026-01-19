@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const welcomeL = hsl.l; 
 
     // About: Rotated 240deg
-    const aboutH = (hsl.h + 240) % 360;
+    const aboutH = (hsl.h + 30) % 360; //Changed from 240 to 30 deg
     const aboutL = 40;
 
     // Projects: Same Hue, Dark
