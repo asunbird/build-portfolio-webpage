@@ -172,8 +172,8 @@ input::placeholder {
 }
 .project-image {
   background-color: var(--main-color);
-  width: 20vw;
-  height: 20vw;
+  width: 16vw;
+  height: 16vw;
   display: inline-block;
   object-fit: cover;
   overflow: hidden;
