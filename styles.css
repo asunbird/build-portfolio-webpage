@@ -364,3 +364,18 @@ footer {
     justify-content: center;
   }
 }
+
+@media (max-width: 370px) {
+  #projects {
+    padding: 10px 0;
+    font-size: 0.9rem;
+  }
+  .project-image {
+    width: 20vw;
+    height: 20vw;
+    display: inline-block;
+    border-radius: 2px;
+    min-width: 40px;
+    min-height: 40px;
+  }
+}
