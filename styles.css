@@ -166,7 +166,7 @@ input::placeholder {
   border-radius: 3px;
   cursor: pointer;
   line-height: 1.5rem;
-  padding: 1.6vh 1.6vw;
+  margin: 1.6vh 1.6vw;
   width: 46%;
   max-height: 300px;
   min-height: 120px;
