@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // 1. CALCULATE BACKGROUNDS
     
     // UPDATED: Main Color is now Rotated 120deg
-    const mainH = (hsl.h + 120) % 360; 
+    const mainH = (hsl.h + 30) % 360; //Changed from 120 to 30 deg
     const mainS = hsl.s; 
     const mainL = hsl.l;
     
