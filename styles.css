@@ -154,7 +154,7 @@ input::placeholder {
   margin: 6vh auto;
   flex-shrink: 0;
 }
-.flex-container a, p {
+.flex-container a, .flex-container p {
   color: var(--text-color);
   text-decoration: none;
   display: block;
