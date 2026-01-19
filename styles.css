@@ -18,7 +18,11 @@ h1 {
   margin-bottom: 10px;
 }
 h3 {
+  display: block;
   font-size: 1.5rem;
+  line-height: 2rem;
+  margin: 0 auto;
+  max-width: 80%;
 }
 p {
   display: block;
@@ -337,8 +341,9 @@ footer {
     height: fit-content;
     padding: 30px auto;
   }
-  #contact h3 {
+  #contact h3, #projects h3 {
     font-size: 1.3rem;
+  
   }
   #contact a {
     font-size: 0.9rem;
