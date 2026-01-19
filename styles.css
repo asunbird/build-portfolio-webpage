@@ -1,3 +1,8 @@
+/* To fix the horizontal overflow */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 /* Global document styles */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 body {
@@ -291,6 +296,11 @@ footer {
 
 /* Media Queries for responsiveness */
 @media (max-width: 600px) {
+  /* To fix the horizontal overflow */
+  .nav-list {
+    padding: 20px;
+    justify-content: center; /* Center nav on mobile */
+  }
   .project-tile {
     display: flex;
     justify-content: flex-start;
@@ -308,6 +318,9 @@ footer {
   .flex-container {
   flex-flow: column;
   flex-direction: column-reverse;
+  /* To fix the horizontal overflow */
+  height: auto; 
+  min-height: 80vh;
   }
   #projects {
     padding: 30px 0;
@@ -329,5 +342,16 @@ footer {
   }
   #contact a {
     font-size: 0.9rem;
+  }
+  #about p {
+  /* To fix the horizontal overflow */
+  width: 90%; /* Increased from 56vw for better mobile readability */
+  max-width: 800px;
+  margin: 1vh auto;
+  }
+  .contacts-container {
+  /* To fix the horizontal overflow */
+    flex-direction: column; /* Stack links vertically */
+    gap: 15px;
   }
 }
