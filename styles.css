@@ -46,10 +46,10 @@ input::placeholder {
 /* Define color variables */
 :root {
   /* background colors for changes */
-  --main-color: #F77E6E;
-  --welcome-color: #C4567F;
-  --projects-dark: #1C346A;
-  --about-contact: #794381;
+  --main-color: #F77E6E; /* Menu, Footer, Buttons */
+  --welcome-color: #C4567F; /* Welcome with users color form */
+  --projects-dark: #1C346A; /* Projects section */
+  --about-contact: #794381; /* About me, Contacts */
 
   /* Text colors for changes */
   --text-color: #ffffff;
