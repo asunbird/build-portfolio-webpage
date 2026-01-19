@@ -230,6 +230,7 @@ input::placeholder {
   text-align: center;
   padding-top: 30px;
   font-size: 1.2rem;
+  margin-bottom: -10px;
 }
 #about, #contact {
 background-color: var(--about-contact);
