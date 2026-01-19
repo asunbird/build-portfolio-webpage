@@ -159,7 +159,7 @@ input::placeholder {
   text-decoration: none;
   display: block;
   margin: 10px 0;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 .project-tile {
   display: flex;
