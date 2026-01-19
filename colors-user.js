@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
     return { h: h, s: +(s * 100).toFixed(1), l: +(l * 100).toFixed(1) };
   }
 
-  // --- HELPER: HSL to RGB (Needed to check brightness) ---
+  // --- HELPER: HSL to RGB ---
   function hslToRgb(h, s, l) {
     s /= 100; l /= 100;
     let c = (1 - Math.abs(2 * l - 1)) * s,
@@ -41,12 +41,10 @@ document.addEventListener("DOMContentLoaded", function() {
     };
   }
 
-  // --- HELPER: Decide if Text should be Black or White ---
+  // --- HELPER: Contrast Checker ---
   function getContrastColor(h, s, l) {
     const rgb = hslToRgb(h, s, l);
-    // Formula for Perceived Brightness
     const brightness = (rgb.r * 299 + rgb.g * 587 + rgb.b * 114) / 1000;
-    // If brightness > 128 (Light), return Black text. Else White.
     return (brightness > 128) ? '#000000' : '#ffffff';
   }
 
@@ -73,36 +71,52 @@ document.addEventListener("DOMContentLoaded", function() {
     const root = document.documentElement;
 
     // 1. CALCULATE BACKGROUNDS
-    // Main
-    const mainH = hsl.h, mainS = hsl.s, mainL = hsl.l;
     
-    // Welcome (Rotated 120deg, 50% Lightness)
-    const welcomeH = (hsl.h + 120) % 360;
-    const welcomeL = 50; 
+    // UPDATED: Main Color is now Rotated 120deg
+    const mainH = (hsl.h + 120) % 360; 
+    const mainS = hsl.s; 
+    const mainL = hsl.l;
+    
+    // Welcome: Uses Exact User Input (0deg rotation)
+    const welcomeH = hsl.h;
+    const welcomeS = hsl.s;
+    const welcomeL = hsl.l; 
 
-    // About (Rotated 240deg, 40% Lightness)
+    // About: Rotated 240deg
     const aboutH = (hsl.h + 240) % 360;
     const aboutL = 40;
 
-    // Projects (Same Hue, 15% Lightness - Very Dark)
+    // Projects: Same Hue, Dark
     const projectsH = hsl.h;
     const projectsL = 15; 
 
     // 2. APPLY BACKGROUND COLORS
     root.style.setProperty('--main-color', `hsl(${mainH}, ${mainS}%, ${mainL}%)`);
-    root.style.setProperty('--welcome-color', `hsl(${welcomeH}, ${hsl.s}%, ${welcomeL}%)`);
+    root.style.setProperty('--welcome-color', `hsl(${welcomeH}, ${welcomeS}%, ${welcomeL}%)`);
     root.style.setProperty('--about-contact', `hsl(${aboutH}, ${hsl.s}%, ${aboutL}%)`);
     root.style.setProperty('--projects-dark', `hsl(${projectsH}, 60%, ${projectsL}%)`);
 
-    // 3. APPLY DYNAMIC TEXT COLORS (The Magic Part)
-    // We calculate contrast for EACH section individually
-    
-    root.style.setProperty('--text-welcome', getContrastColor(welcomeH, hsl.s, welcomeL));
+    // 3. APPLY DYNAMIC TEXT COLORS
+    root.style.setProperty('--text-welcome', getContrastColor(welcomeH, welcomeS, welcomeL));
     root.style.setProperty('--text-about', getContrastColor(aboutH, hsl.s, aboutL));
     root.style.setProperty('--text-projects', getContrastColor(projectsH, 60, projectsL));
-    
-    // Also fix the button text contrast based on main color
+    // Main contrast now checks against the rotated mainH
     root.style.setProperty('--text-main-contrast', getContrastColor(mainH, mainS, mainL));
+
+    // 4. APPLY TO SPECIFIC DOM ELEMENTS
+    const aboutBg = document.getElementById("about-contact-bg");
+    const aboutSec = document.getElementById("about");
+    const contactSec = document.getElementById("contact");
+
+    if (aboutBg) {
+      aboutBg.style.backgroundColor = "var(--about-contact)";
+    }
+    if (aboutSec) {
+      aboutSec.style.backgroundColor = "transparent";
+    }
+    if (contactSec) {
+      contactSec.style.backgroundColor = "transparent";
+    }
   }
 
   submitBtn.addEventListener("click", function(e) { e.preventDefault(); updateTheme(); });
