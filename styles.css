@@ -366,16 +366,42 @@ footer {
 }
 
 @media (max-width: 370px) {
+  body {
+    font-size: 12px;
+  }
   #projects {
     padding: 10px 0;
     font-size: 0.9rem;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 100%;
+    height: fit-content;
+  }
+  .project-tile {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-flow: column;
+    width: 90%;
+    height: fit-content;
+    margin: 10px auto;
+    line-height: 1.2rem;
+    padding: 0;
   }
   .project-image {
     width: 20vw;
     height: 20vw;
-    display: inline-block;
+    display: block;
     border-radius: 2px;
     min-width: 40px;
     min-height: 40px;
+    margin: 1vw auto;
+  }
+  .project-link {
+    display: block;
+    margin: 0;
+    text-align: center;
   }
 }
