@@ -166,9 +166,10 @@ input::placeholder {
   border-radius: 3px;
   cursor: pointer;
   line-height: 1.5rem;
-  padding: 1vh 1vw;
+  padding: 1.6vh 1.6vw;
   width: 46%;
-  height: 50vw;
+  max-height: 300px;
+  min-height: 120px;
 }
 .project-image {
   background-color: var(--main-color);
