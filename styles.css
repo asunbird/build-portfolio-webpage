@@ -159,6 +159,7 @@ input::placeholder {
   text-decoration: none;
   display: block;
   margin: 10px 0;
+  font-size: 0.9rem;
 }
 .project-tile {
   display: flex;
@@ -191,7 +192,6 @@ input::placeholder {
   display: inline-block;
   color: var(--text-projects);
   margin: 0 20px 10px 20px;
-  font-size: 1.2rem;
   text-align: left;
 }
 
@@ -308,11 +308,11 @@ footer {
   }
   #projects {
     padding: 30px 0;
+    font-size: 1.2rem;
   }
   .project-link {
     display: inline-block;
     margin: 0 20px 10px 20px;
-    font-size: 1.2rem;
     text-align: left;
   }
 
