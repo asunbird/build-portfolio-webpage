@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- <script type="text/javascript" src="color.js"></script> -->
+    <script type="text/javascript" src="colors-user.js"></script>
+  </head>
+
+  <body id="Welcome">
+    <header>
+      <nav id="navbar">
+        <ul class="nav-list">
+          <li><a href="#Welcome">Welcome</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Welcome section where you can input color -->
+      <!-- and change the color scheme -->
+      <section id="welcome-section">
+        <div class="input-container">
+          <h1>What is your favorite color?</h1>
+          <p>You can apply your favorite color to this site</p>
+        </div>
+        <div class="input-container">
+          <input
+            aria-label="Enter your favorite color"
+            id="color-input"
+            type="text"
+            placeholder="e.g. Tomato, Navy, Gold"
+            required
+          />
+          <button class="btn-submit" type="submit" id="color-button">
+            Submit
+          </button>
+        </div>
+      </section>
+
+      <!-- The Projects section -->
+      <section id="projects">
+        <h3>From Concept to Code: My Creative Journey & Recent Builds</h3>
+
+        <div class="flex-container">
+          <div id="project-1" class="project-tile">
+            <div class="project-image">
+              <img src="./small-Project-1.png" alt="Project 1" />
+            </div>
+            <div class="project-link">
+              <a href="https://asunbird.github.io/survey-form/" target="_blank"
+                ><h3>The Survey Form</h3></a
+              >
+              <p>
+                The question form quiz with input forms, checkboxes, radio
+                buttons, text area and the Submit Button.
+              </p>
+            </div>
+          </div>
+
+          <div id="project-2" class="project-tile">
+            <div class="project-image">
+              <img src="./small-Project-2.png" alt="Project 2" />
+            </div>
+            <div class="project-link">
+              <a
+                href="https://asunbird.github.io/survey-form-copy-new-styles/"
+                target="_blank"
+                ><h3>Survey Form with changed styles</h3></a
+              >
+              <p>The Survey Form HTML page with changed CSS styles</p>
+            </div>
+          </div>
+
+          <div id="project-3" class="project-tile">
+            <div class="project-image">
+              <img src="./small-Project-3.png" alt="Project 3" />
+            </div>
+            <div class="project-link">
+              <a
+                href="https://asunbird.github.io/HTML-CSS-Challenges/zoo-css-challenge/"
+                target="_blank"
+                ><h3>Zoo CSS Challenge</h3></a
+              >
+              <p>Zoo animals web page with tasks from CSS Challenge</p>
+            </div>
+          </div>
+
+          <div id="project-4" class="project-tile">
+            <div class="project-image">
+              <img src="./small-Project-4.png" alt="Project 4" />
+            </div>
+            <div class="project-link">
+              <a
+                href="https://asunbird.github.io/HTML-CSS-Challenges/Two-Truths-One-Lie"
+                target="_blank"
+                ><h3>Two Truth One Lie</h3></a
+              >
+              <p>
+                The task from CSS Challenge, the copy of example web page
+                picture named Two Truth One Lie
+              </p>
+            </div>
+          </div>
+
+          <div id="project-5" class="project-tile">
+            <div class="project-image">
+              <img src="./small-Project-5.png" alt="Project 5" />
+            </div>
+            <div class="project-link">
+              <a
+                href="https://asunbird.github.io/Flexbox-Position-Example/"
+                target="_blank"
+                ><h3>Flexbox Position</h3></a
+              >
+              <p>
+                The task from CSS styles part, the copy of example web page
+                picture named Flexbox Position
+              </p>
+            </div>
+          </div>
+
+          <div id="project-6" class="project-tile">
+            <div class="project-image">
+              <img src="./small-Project-6.png" alt="Project 6" />
+            </div>
+            <div class="project-link">
+              <a
+                href="https://asunbird.github.io/tribute-page-produser-Cameron/"
+                target="_blank"
+                ><h3>Tribute Page</h3></a
+              >
+              <p>
+                The web page about my favorite film director, designed similar
+                to the example named The Tribute Page
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="button-container">
+          <a href="https://www.freecodecamp.org/lana_chepurna" target="_blank"
+            >View all Projects</a
+          >
+        </div>
+      </section>
+
+      <!-- About Me section -->
+      <div id="about-contact-bg">
+        <section id="about" class="about-section">
+          <h1 class="cotact-heading">Hello World!!!</h1>
+          <p class="font-italic">
+            These were the first words I typed when I began my journey as a
+            frontend developer.
+          </p>
+          <br /><br />
+          <p>
+            I’ve always found it easy to generate ideas, and my goal is to bring
+            them to life through clean, functional code. 🤓 I thrive in team
+            environments, collaborating with inspiring people to find the most
+            efficient solutions for our projects.
+          </p>
+          <p>
+            My current toolkit includes: React, JavaScript, and HTML, CSS.
+            <br />
+            Design tools: Illustrator, Photoshop, After Effects, Lightroom.
+          </p>
+          <p>
+            Coming from a background in design, I’ve always been a creative
+            person, but I also have a deep love for mathematics. This led me to
+            programming, where I can merge technical logic with aesthetic
+            design.
+          </p>
+          <p>
+            <strong>
+              🚀 I am open to project-based collaborations and startup roles to
+              push my frontend skills to the next level.
+            </strong>
+          </p>
+          <br /><br />
+        </section>
+
+        <!-- Contacts section -->
+        <section id="contact">
+          <h3>Drop me a line - I’d love to hear from you:</h3>
+          <div class="contacts-container">
+            <a href="mailto:svitl.chepurna@gmail.com"
+              >svitl.chepurna@gmail.com</a
+            >
+
+            <a
+              id="profile-link"
+              href="https://github.com/asunbird"
+              title="GitHub profile"
+              target="_blank"
+              >GitHub</a
+            >
+            <a href="https://www.linkedin.com/in/chepurna/" target="_blank">
+              LinkedIn</a
+            >
+          </div>
+        </section>
+      </div>
+      <!-- div #about-contact-bg -->
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2026 Portfolio Website by Lana</p>
+      </div>
+    </footer>
+  </body>
+</html>
