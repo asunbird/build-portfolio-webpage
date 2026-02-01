@@ -277,17 +277,22 @@ aside {
   margin-left: 0.5rem;
   margin-right: 1rem;
   font-style: italic;
-
+}
+.about-text {
+  width: 42vw;
+  max-width: 800px;
+  height: fit-content;
+  text-align: left;
 }
 
-#about, #contact {
-background-color: var(--about-contact);
+#about, #contact, #toolkit {
+  background-color: var(--about-contact);
   color: var(--text-about); 
   /* Uses specific variable */
   width: 100%;
   height: fit-content;
 }
-#about p {
+#about p, #toolkit p {
   font-size: 1rem;
   line-height: 1.5rem;
   display: block;
@@ -295,11 +300,16 @@ background-color: var(--about-contact);
   text-align: left;
   margin: 1vh auto;
 }
-#about h1 {
+#about h1, #toolkit h1{
   display: block;
   height: fit-content;
   text-align: left;
   margin: 1vh auto;
+}
+#toolkit {
+  width: 100%;
+  height: fit-content;
+  margin: 0 auto;
 }
 
 #contact {
