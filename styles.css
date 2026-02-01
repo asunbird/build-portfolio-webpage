@@ -3,6 +3,23 @@
   box-sizing: border-box;
 }
 
+/* CSS Variables for color themes */
+/* Define color variables */
+:root {
+  /* background colors for changes */
+  --main-color: #F77E6E; /* Menu, Footer, Buttons */
+  --welcome-color: #C4567F; /* Welcome with users color form */
+  --projects-dark: #1C346A; /* Projects section */
+  --about-contact: #794381; /* About me, Contacts */
+  /* text colors */
+  --text-color: #ffffff; /* Main text color */
+  --text-welcome: #ffffff;
+  --text-projects: #ffffff;
+  --text-about: #ffffff;
+  --text-main-contrast: #000000; /* For buttons on main color */ 
+}
+
+
 /* Global document styles */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 body {
@@ -43,23 +60,6 @@ input::placeholder {
   opacity: 1; 
 }
 
-/* Define color variables */
-:root {
-  /* background colors for changes */
-  --main-color: #F77E6E; /* Menu, Footer, Buttons */
-  --welcome-color: #C4567F; /* Welcome with users color form */
-  --projects-dark: #1C346A; /* Projects section */
-  --about-contact: #794381; /* About me, Contacts */
-
-  /* Text colors for changes */
-  --text-color: #ffffff; /* Main text color */
-  --text-welcome: #ffffff;
-  --text-projects: #ffffff;
-  --text-about: #ffffff;
-  --text-main-contrast: #000000; /* For buttons on main color */
-  
-}
-
 
 /* Navigation styles */
 #navbar {
@@ -67,6 +67,7 @@ input::placeholder {
   font-weight: bold;
   text-decoration: none;
   position: fixed;
+  top: 0;
   background-color: var(--main-color);
   margin: 0;
   width: 100%;
@@ -106,8 +107,9 @@ input::placeholder {
   flex-flow: column;
   align-items: center;
   width: 100%;
-  min-height: 700px;
+  height: 100vh;
 }
+
 .input-container {
   display: block;
   margin: 20px;
