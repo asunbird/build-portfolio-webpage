@@ -24,4 +24,4 @@ This project is based on the freeCodeCamp "Build a Personal Portfolio Webpage" p
 
 *   **`small-Project-1.png` - `small-Project-6.png`**: These are image files used as thumbnails or previews for the projects listed in the portfolio.
 
-*   **`.DS_Store`**: A system file created by macOS. It contains information about the folder's display options. It is not relevant to the project itself.
+
