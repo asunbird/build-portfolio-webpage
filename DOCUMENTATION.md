@@ -22,6 +22,4 @@ This project is based on the freeCodeCamp "Build a Personal Portfolio Webpage" p
 
 *   **`README.md`**: The main README file for the project. It contains a brief description of the project and a link to the freeCodeCamp project instructions.
 
-*   **`small-Project-1.png` - `small-Project-6.png`**: These are image files used as thumbnails or previews for the projects listed in the portfolio.
-
 
