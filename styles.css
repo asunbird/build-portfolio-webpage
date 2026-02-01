@@ -335,6 +335,9 @@ footer {
 .footer-content p {
   font-size: 0.8rem;
 }
+#caption {
+  font-weight: bold;
+}
 
 /* Media Queries for responsiveness */
 @media (max-width: 600px) {
