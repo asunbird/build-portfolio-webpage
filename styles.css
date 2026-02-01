@@ -116,6 +116,9 @@ input::placeholder {
   text-align: center;
 }
 
+input::placeholder {
+  color: var(--welcome-color);
+}
 
 #color-button {
   background-color: var(--main-color);
