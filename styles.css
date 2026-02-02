@@ -190,12 +190,12 @@ input::placeholder {
   flex-shrink: 0;
 }
 .flex-container a, .flex-container p {
-
   text-decoration: none;
   display: block;
   margin: 10px 0;
   font-size: 1rem;
 }
+
 .project-tile {
   display: flex;
   justify-content: center;
@@ -264,7 +264,7 @@ input::placeholder {
 #about-contact-bg {
   background-color: var(--about-contact);
   width: 100%;
-  height: fit-content;
+  height: 80vh;
 }
 .about-section {
   display: flex;
