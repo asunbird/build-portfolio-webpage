@@ -31,12 +31,12 @@ body {
 }
 h1 {
   display: block;
-  font-size: 2rem;
+  font-size: 1.6rem;
   margin-bottom: 10px;
 }
 h3 {
   display: block;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   line-height: 2rem;
   margin: 0 auto;
   max-width: 80%;
@@ -178,8 +178,8 @@ input::placeholder {
   align-items: center;
   flex-flow: column;
   width: 100%;
-  height: fit-content;
-  padding: 8vh 0;
+  height: 100vh;
+  padding: 10px 0;
 }
 #projects h3 {
   color: var(--text-color);
@@ -189,10 +189,9 @@ input::placeholder {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  height: 80vh;
   min-height: fit-content;
   width: 100%;
-  margin: 6vh auto;
+  margin: 10px auto;
   flex-shrink: 0;
 }
 .flex-container a, .flex-container p {
@@ -210,22 +209,22 @@ input::placeholder {
   border-radius: 3px;
   line-height: 1.5rem;
   margin: 1.6vw;
-  width: 30%;
-  height: 22vw;
-  min-height: 280px;
+  width: 20%;
+  height: 8vw;
+  min-height: 160px;
   background-color: var(--about-contact);
   /* box-shadow: 1px 1px 2px var(--text-projects); */
   /* border: var(--main-color) 0.6px solid; */
 }
 .project-image {
-  width: 6vw;
-  height: 6vw;
+  width: 4vw;
+  height: 4vw;
   display: inline-block;
   object-fit: cover;
   overflow: hidden;
   border-radius: 3px;
-  min-width: 80px;
-  min-height: 80px;
+  min-width: 60px;
+  min-height: 60px;
   /* this line to prevent shrinking */
   flex-shrink: 0;
 }
@@ -257,7 +256,7 @@ input::placeholder {
   cursor: pointer;
   border: 0;
   padding: 0.8rem;
-  margin-top: 3vh;
+  margin-top: 10px;
   font-size: 0.8rem;
 }
 .button-container a {
