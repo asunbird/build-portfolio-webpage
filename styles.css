@@ -19,32 +19,6 @@
   --text-main-contrast: #000000; /* For buttons on main color */ 
 }
 
-
-.grid {
-    /*visibility: hidden;*/
-    display: grid;
-    grid-template-columns: 48% 48%;
-    grid-template-rows: 40vh 40vh 40vh;
-}
-.grid-cell {
-    display: block;
-    border: 1px solid;
-    border-radius: 3px;
-    padding: 10px;
-    text-align: center;
-    margin: 10px;
-    border-color: var(--main-color);
-    color: var(--text-color);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
-}
-a {
-  color: var(--text-color);
-  text-decoration: none;
-}
-
-
-
 /* Global document styles */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 body {
@@ -70,11 +44,15 @@ h3 {
 p {
   display: block;
   font-size: 0.9em;
-
 }
 .font-italic {
   font-style: italic;
 }
+a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
 
 
 
