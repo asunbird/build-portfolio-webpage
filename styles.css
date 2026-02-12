@@ -77,7 +77,7 @@ p {
 #logo {
   position: fixed;
   display: inline-block;
-  top: 8px;
+  top: 30px;
   left: 20px;
   cursor: pointer;
   width: fit-content;
@@ -359,10 +359,10 @@ footer {
 }
 .footer-content {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: center;
   height: 100%;
-  padding: 0 20px;
+  padding: 0 26px;
 }
 .footer-content p {
   font-size: 0.8rem;
