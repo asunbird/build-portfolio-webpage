@@ -3,7 +3,6 @@
   box-sizing: border-box;
 }
 
-/* CSS Variables for color themes */
 /* Define color variables */
 :root {
   /* background colors for changes */
@@ -54,20 +53,7 @@ a {
 }
 
 
-
-
 /* Navigation styles */
-#navbar {
-  font-size: 1.2rem;
-  font-weight: bold;
-  text-decoration: none;
-  position: fixed;
-  top: 0;
-  background-color: var(--main-color);
-  margin: 0;
-  width: 100%;
-  height: 80px;
-}
 #navbar-projects {
   font-size: 1.2rem;
   font-weight: bold;
@@ -102,105 +88,7 @@ a {
   cursor: pointer;
 }
 
-
-/* Welcome section styles */ 
-#welcome-section {
-  background-color: var(--welcome-color);
-  color: var(--text-welcome); 
-  /* Uses specific variable */
-  display: flex;
-  justify-content: center;
-  flex-flow: column;
-  align-items: center;
-  width: 100%;
-  height: 100vh;
-}
-#about {
-  width: 100%;
-  height: 200px;
-  display: flex;
-  justify-content: center;
-  flex-flow: column;
-  align-items: center;
-}
-#about p {
-  display: block;
-  height: fit-content;
-  text-align: center;
-  margin: 8px auto;
-  color: var(--text-color);
-}
-#about h1 {
-  display: block;
-  height: fit-content;
-  text-align: center;
-  margin: 1vh auto;
-}
-
-.input-container {
-  display: block;
-  margin: 20px;
-  text-align: center;
-  width: 50vw;
-  height: fit-content;
-  background-color: var(--text-color);
-  border-radius: 6px;
-  padding: 20px;
-}
-
-#color-label {
-  color: var(--welcome-color);
-}
-
-input {
-  width: 100%;
-  height: 1.6em;
-  border: 1px solid var(--welcome-color);
-  border-radius: 3px;
-  text-align: center;
-  margin-top: 16px;
-}
-input::placeholder {
-  opacity: 0.8;
-  color: var(--welcome-color);
-}
-#color-button {
-  background-color: var(--main-color);
-  color: var(--text-color);
-  border: 0;
-  padding: 10px 20px;
-  cursor: pointer;
-  border-radius: 2px;
-  margin: 10px;
-}
-/* Buttons (using main color) */
-.btn-submit {
-  background-color: var(--main-color);
-  color: var(--text-main-contrast); 
-  border: none;
-  cursor: pointer;
-  transition: transform 0.3s ease-in-out;
-}
-.btn-submit:hover {
-  cursor: pointer;
-  transform: scale(1.1);
-}
-
-/* Projects section styles */
-#projects {
-  background-color: var(--projects-dark);
-  color: var(--text-projects); 
-  /* Uses specific variable */
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column;
-  width: 100%;
-  height: 100vh;
-  padding: 10px 0;
-}
-/* All projects page Styles start */
+/* All projects page Styles */
 #all-projects {
   background-color: var(--welcome-color);
   color: var(--text-projects); 
@@ -214,39 +102,7 @@ input::placeholder {
   height: fit-content;
   padding: 10px 0;
 }
-#toolkit {
-  background-color: var(--welcome-color);
-  color: var(--text-projects); 
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column;
-  width: 100%;
-  height: 80px;
-  padding: 10px 0;
-}
-#tools-text {
-  margin: 20px auto;
-  width: 100%;
-  height: 10hv;
-  min-height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column;
-  padding-bottom: 20px;
-}
-#tools-text p {
-  margin: 10px auto;
-}
-span {
-  font-weight: bold;
-  margin-left: 6px;
-}
-#caption2 {
-  font-weight: bold;
-}
+
 .project-card {
   display: flex;
   justify-content: center;
@@ -265,11 +121,10 @@ span {
   cursor: pointer;
 }
 
-/* All projects page Styles end */
-#projects h1 {
+#all-projects h1 {
   margin-bottom: 10vh;
 }
-#projects h3 {
+#all-projects h3 {
   color: var(--text-color);
 }
 .flex-container {
@@ -287,26 +142,6 @@ span {
   display: block;
   margin: 10px 0;
   font-size: 1rem;
-}
-
-.project-tile {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column;
-  border-radius: 3px;
-  line-height: 1.5rem;
-  margin: 1.6vw;
-  width: 30%;
-  max-width: 320px;
-  height: 180px;
-  min-height: 160px;
-  /* box-shadow: 1px 1px 2px var(--text-projects); */
-  border: var(--main-color) 1px solid; 
-  transition: transform 0.3s ease-in-out;
-}
-.project-tile:hover {
-  transform: scale(1.1);
 }
 
 .project-image {
@@ -340,103 +175,38 @@ span {
   transform: scale(1.1);
 }
 
-.button-container {
-  display: block;
-  width: fit-content;
-  height: fit-content;
-  border: var(--main-color) 1px solid;
-  border-radius: 2px;
-  cursor: pointer;
-  padding: 0.8rem;
-  margin-top: 10px;
-  font-size: 0.8rem;
-  transition: transform 0.3s ease-in-out;
-}
-.button-container:hover {
-  cursor: pointer;
-  transform: scale(1.1);
-}
-#all-projects-btn {
-  display: block;
-  width: 140px;
-  height: 40px;
-  position: relative;
-  left: 46%;
-  top: 30px;
-  font-size: 0.8rem;
-  background-color: var(--main-color);
-  color: var(--text-color);
-  border: 0;
-  padding: 8px 10px;
-  cursor: pointer;
-  border-radius: 2px;
-  margin: 10px;
-  transition: transform 0.3s ease-in-out;
-}
 
-#all-projects-btn:hover {
-  cursor: pointer;
-  transform: scale(1.1);
-}
-
-.button-container a {
-  color: var(--text-color);
-  text-decoration: none;
-}
-
-/* Contact section styles */
-#contact {
-  background-color: var(--about-contact);
-  color: var(--text-about); 
-  /* Uses specific variable */
-  width: 100%;
-  height: 82vh;
-  min-height: fit-content;
+/* Toolkit styles */
+#toolkit {
+  background-color: var(--welcome-color);
+  color: var(--text-projects); 
   display: flex;
   text-align: center;
   justify-content: center;
   align-items: center;
   flex-flow: column;
-  font-size: 1.2rem;
-}
-.contact-header {
   width: 100%;
-  height: 40vh;
+  height: 80px;
+  padding: 10px 0;
+}
+#tools-text {
+  margin: 20px auto;
+  width: 100%;
+  height: 10hv;
   min-height: 100px;
-  max-height: 180px;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-flow: column;
-  align-items: center;
+  padding-bottom: 20px;
 }
-
-.contacts-container {
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  align-items: center;
+#tools-text p {
+  margin: 10px auto;
 }
-/* Contacts link Initial state */
-.contacts-container a {
-  color: var(--text-color);
-  text-decoration: none;
-  font-size: 0.9rem;
-  transition: transform 0.3s ease-in-out;
+span {
+  font-weight: bold;
+  margin-left: 6px;
 }
-/* Contacts link Hover state */
-.contacts-container a:hover {
-  transform: scale(1.16);
-  cursor: pointer;
-}
-.contact-item {
-  display: block;
-  border-radius: 3px;
-  border: var(--main-color) 1px solid;
-  padding: 8px 16px;
-  transition: transform 0.3s ease-in-out;
-}
-
 
 /* Footer styles */
 footer {
@@ -455,7 +225,7 @@ footer {
 .footer-content p {
   font-size: 0.8rem;
 }
-#caption {
+#caption2 {
   font-weight: bold;
 }
 
