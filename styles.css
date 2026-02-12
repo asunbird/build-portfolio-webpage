@@ -39,7 +39,7 @@ h3 {
   display: block;
   font-size: 1.4rem;
   line-height: 2rem;
-  margin: 0 auto;
+  margin: 10px auto;
   max-width: 80%;
 }
 p {
@@ -223,7 +223,12 @@ input::placeholder {
   min-height: 160px;
   /* box-shadow: 1px 1px 2px var(--text-projects); */
   border: var(--main-color) 1px solid; 
+  transition: transform 0.3s ease-in-out;
 }
+.project-tile:hover {
+  transform: scale(1.1);
+}
+
 .project-image {
   width: 4vw;
   height: 4vw;
@@ -289,12 +294,21 @@ input::placeholder {
   justify-content: center;
   align-items: center;
   flex-flow: column;
-  padding: 10px 0;
   font-size: 1.2rem;
+}
+.contact-header {
+  width: 100%;
+  height: 40vh;
+  min-height: 100px;
+  max-height: 180px;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
 }
 
 .contacts-container {
-  margin-top: 30px;
+  margin-top: 20px;
   display: flex;
   justify-content: center;
   gap: 40px;
@@ -304,7 +318,7 @@ input::placeholder {
 .contacts-container a {
   color: var(--text-color);
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 0.9rem;
   transition: transform 0.3s ease-in-out;
 }
 /* Contacts link Hover state */
@@ -312,6 +326,14 @@ input::placeholder {
   transform: scale(1.16);
   cursor: pointer;
 }
+.contact-item {
+  display: block;
+  border-radius: 3px;
+  border: var(--main-color) 1px solid;
+  padding: 8px 16px;
+  transition: transform 0.3s ease-in-out;
+}
+
 
 /* Footer styles */
 footer {
@@ -394,7 +416,8 @@ footer {
   }
   .contacts-container {
   /* To fix the horizontal overflow */
-    flex-direction: column; /* Stack links vertically */
+    flex-direction: column; 
+    /* Stack links vertically */
     gap: 15px;
   }
   .footer-content {
