@@ -20,12 +20,18 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
+      <!-- About Me text -->
+      <div id="about">
+        <h1>Welcome! I am Svitlana</h1>
+        <p>I'm studying a web development</p>
+      </div>           
       <!-- Change on choosing favorite color from several examples -->
       <!-- Welcome section where you can input color -->
       <!-- and change the color scheme -->
-      <h1>What is your favorite color?</h1>
       <div class="input-container">
-        <input id="color-input" type="text"
+        <label id="color-label" for="color-input">
+          Let's change the colors! Choose your favorite:</label>
+        <input id="color-input" type="text" name="color-input" 
           placeholder="e.g. Tomato, Navy, Gold"
           required/>
         <button class="btn-submit" type="submit" id="color-button">
@@ -113,62 +119,10 @@
         </div>
       </section>
       <!-- ******************************************* -->
-      <!-- About Me section -->
-      <div id="about-contact-bg">
-        <section id="about" class="about-section">
-          <aside>
-              <h1>Hello World!!!</h1>
-              <p>
-                These were the first words I typed when I began my journey as a
-                frontend developer.</p>
-          </aside>
-          
-          <div class="about-text">
-            <p>My name is Svitlana and I'm a passionate frontend developer.
-              Coming from a background in design, I’ve always been a creative
-              person, but I also have a deep love for mathematics. This led me to
-              programming, where I can merge technical logic with aesthetic
-              design.
-            </p>
-            <p>
-              <strong>
-                🚀 I am open to project-based collaborations and startup roles to
-                push my frontend skills to the next level.
-              </strong>
-            </p>
-          </div>
-
-          <!--
-          <p>
-            I’ve always found it easy to generate ideas, and my goal is to bring
-            them to life through clean, functional code. 🤓 I thrive in team
-            environments, collaborating with inspiring people to find the most
-            efficient solutions for our projects.
-          </p>
-          -->
-        </section>
-
-        <!-- About toolkit section -->
-        <section id="toolkit" class="about-section">
-            <aside>
-                <h1>My Toolkit:</h1>
-                <p>The tools I use to bring ideas to life.
-                </p>
-            </aside>
-            <div class="about-text">
-                <p>
-                  <!-- My current toolkit includes: -->
-                  HTML, Git, CSS, JavaScript, React;
-                  <br />
-                  <!-- Design tools: -->
-                  Illustrator, Photoshop, After Effects, Lightroom;
-                </p>
-            </div>
-        </section>
-
         <!-- Contacts section -->
         <section id="contact">
           <h3>Drop me a line - I’d love to hear from you:</h3>
+          <p>🚀 Ready to collaborate on projects and startups</p>
           <div class="contacts-container">
             <a href="mailto:svitl.chepurna@gmail.com"
               >svitl.chepurna@gmail.com</a

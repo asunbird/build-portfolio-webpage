@@ -8,7 +8,7 @@
 :root {
   /* background colors for changes */
   --main-color: #F77E6E; /* Menu, Footer, Buttons */
-  --welcome-color: #C4567F; /* Welcome with users color form */
+  --welcome-color: #c45071; /* Welcome with users color form */
   --projects-dark: #1C346A; /* Projects section */
   --about-contact: #794381; /* About me, Contacts */
   /* text colors */
@@ -43,7 +43,8 @@ h3 {
 }
 p {
   display: block;
-  font-size: 0.8rem;
+  font-size: 1rem;
+
 }
 .font-italic {
   font-style: italic;
@@ -63,7 +64,6 @@ p {
   width: 100%;
   height: 80px;
 }
-
 .nav-list {
   display: flex;
   justify-content: flex-end;
@@ -74,16 +74,15 @@ p {
   display: inline-block;
   margin-left: 30px;
 }
-
-/* link Initial state */
 .nav-list a {
+  /* link Initial state */
   color: var(--text-color);
   text-decoration: none;
   display: inline-block;
   transition: transform 0.3s ease-in-out;
 }
-/* link Hover state */
 .nav-list a:hover {
+  /* link Hover state */
   transform: scale(1.16);
   cursor: pointer;
 }
@@ -101,26 +100,55 @@ p {
   width: 100%;
   height: 100vh;
 }
+#about {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+}
+#about p {
+  display: block;
+  height: fit-content;
+  text-align: center;
+  margin: 10px auto;
+  color: var(--text-color);
+}
+#about h1 {
+  display: block;
+  height: fit-content;
+  text-align: center;
+  margin: 1vh auto;
+}
 
 .input-container {
   display: block;
   margin: 20px;
   text-align: center;
+  width: 50vw;
+  height: fit-content;
+  background-color: var(--text-color);
+  border-radius: 6px;
+  padding: 20px;
+}
+
+#color-label {
+  color: var(--welcome-color);
 }
 
 input {
   width: 100%;
   height: 1.6em;
-  border: 0;
+  border: 1px solid var(--welcome-color);
   border-radius: 3px;
   text-align: center;
+  margin-top: 16px;
 }
-
 input::placeholder {
   opacity: 0.8;
   color: var(--welcome-color);
 }
-
 #color-button {
   background-color: var(--main-color);
   color: var(--text-color);
@@ -130,7 +158,6 @@ input::placeholder {
   border-radius: 2px;
   margin: 10px;
 }
-
 /* Buttons (using main color) */
 .btn-submit {
   background-color: var(--main-color);
@@ -238,65 +265,19 @@ input::placeholder {
   text-decoration: none;
 }
 
-
-/* About & Contact Sections */
+/* Contact section styles */
 #about-contact-bg {
   background-color: var(--about-contact);
   width: 100%;
   height: 80vh;
 }
-.about-section {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  padding-top: 30px;
-  font-size: 1.2rem;
-  margin-bottom: -10px;
-}
-aside {
-  width: 20vw;
-  min-width: 160px;
-  height: fit-content;
-  float: left;
-  padding-left: 0.5rem;
-  margin-left: 0.5rem;
-  margin-right: 1rem;
-  font-style: italic;
-}
-.about-text {
-  width: 42vw;
-  max-width: 800px;
-  height: fit-content;
-  text-align: left;
-}
-
-#about, #contact, #toolkit {
+#contact {
   background-color: var(--about-contact);
   color: var(--text-about); 
   /* Uses specific variable */
   width: 100%;
   height: fit-content;
 }
-#about p, #toolkit p {
-  font-size: 1rem;
-  line-height: 1.5rem;
-  display: block;
-  height: fit-content;
-  text-align: left;
-  margin: 1vh auto;
-}
-#about h1, #toolkit h1{
-  display: block;
-  height: fit-content;
-  text-align: left;
-  margin: 1vh auto;
-}
-#toolkit {
-  width: 100%;
-  height: fit-content;
-  margin: 0 auto;
-}
-
 #contact {
   display: flex;
   justify-content: center;
@@ -308,7 +289,6 @@ aside {
   font-size: 1.2rem;
   padding-bottom: 8vh;
 }
-
 .contacts-container {
   margin-top: 30px;
   display: flex;
@@ -350,6 +330,8 @@ footer {
   font-weight: bold;
 }
 
+
+/* ************************* */
 /* Media Queries for responsiveness */
 @media (max-width: 600px) {
   /* To fix the horizontal overflow */
